@@ -1,0 +1,75 @@
+<html lang="tr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Login</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/4.0/examples/sign-in/signin.css" rel="stylesheet">
+</head>
+<body style="background-color:#bacb54">
+<div th:replace="inc/navbar"></div>
+<div class="container">
+
+    <h1 class="text-center">School Project Dashboard</h1>
+
+        <div class="row">
+            <div class="col-3">
+                <h5 class="mt-1">Customer Update</h5>
+                <form method="post" action="/customerUpdate" >
+                    <div class="mb-3">
+                        <label for="Name" class="form-label">Name</label>
+                        <input name="Name" required type="text" class="form-control" id="Name" >
+                    </div>
+                    <div class="mb-3">
+                        <label for="Surname" class="form-label">Surname</label>
+                        <input name="Surname" required type="text" class="form-control" id="Surname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Email</label>
+                        <input name="Email" required type="email" class="form-control" id="Email">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Save Customer</button>
+                </form>
+            </div>
+            <div class="col-9">
+                <div style="text-align: left" th:text="${'Düzenlenecek Kişi :  '+customer.getName()+' '+customer.getSurname()}">
+
+                </div>
+                <table class="table table-warning table-hover table-bordered border-secondary mt-3" style="border-width:thin;">
+                    <thead>
+                    <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Surname</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Delete</th>
+
+                    </tr>
+                    </thead>
+                    <tbody th:if="${customer != null}">
+
+                    <tr th:each="item, iter : ${customer}">
+                        <th scope="row" th:text="${iter.count}"></th>
+                        <td th:text="${item.name}"></td>
+                        <td th:text="${item.surname}"></td>
+                        <td th:text="${item.email}"></td>
+                        <td>
+                            <a th:href="${'/customerDelete/'+item.cid}" role="button" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+
+                    </tr>
+                    </tbody>
+                </table>
+        </div>
+
+
+
+
+</div>
+</div>
+</body>
+</html>
