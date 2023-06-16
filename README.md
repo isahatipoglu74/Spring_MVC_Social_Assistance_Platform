@@ -1,10 +1,10 @@
 # Spring MVC Social Assistance Platform
 
-Bu web uygulaması Spring Mvc projesi olup iki aşamadan oluşmaktadır.Hem yönetici hemde ziyaretçi olarak sisteme login olunabilmektedir.
-Yönetici arayüzünde mevcut projeleri görüntüleyebilir, projelere gönüllü kişiler ekleyebilir,silebilir ve güncelleyebilir.
-Sponsorların takiplerini yapabilir.Tablo olarak  dinamik bir şekilde görüntüleyebilir.
-İş faliyetlerini takvim üzerinden görüntüleyebilir ve yeni iş ve yapılacak notlar ekleyebilir.
-Rehber sekmesi ile  kullanıcı listelerini görüntüleyebilir ve rehberdeki mevcut kişileri silme ve güncelleme işlemleri yapabilir.
+Bu web uygulaması Spring Mvc projesi olup iki arayüzden oluşmaktadır. Hem yönetici hemde ziyaretçi olarak sisteme login olunabilmektedir.
+Yönetici arayüzünde aktif projeleri görüntüleyebilir , projelere gönüllü kişiler ekleyebilir , silebilir ve güncelleyebilirsiniz.
+Aynı zamanda aktif sponsorların takiplerini yapabilir ve veritabanı ile eş zamanlı  olarak  dinamik bir şekilde görüntüleyebilirsiniz.
+İş faliyetlerini takvim üzerinden görüntüleyebilir , yeni işleri ve yapılacakları not şeklinde ekleyebilirsiniz.
+Rehber sekmesi ile  kullanıcı listelerini görüntüleyebilir ve rehberdeki mevcut kişileri silme ve güncelleme işlemlerini yapabilirsiniz.
 Ziyaretçi olarak uygulamaya login olunduğunda ise daha kısıtlı işlemler yapılabilmektedir.
 Mevcut yardım projelerini görüntüleyebilir,gönüllü olabilme veya  sponsor olarak kayıt olma gibi işlemler yapılabilir.
 
