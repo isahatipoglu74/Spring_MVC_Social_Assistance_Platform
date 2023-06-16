@@ -1,4 +1,4 @@
-# Spring_MVC_Social_Assistance_Platform
+# Spring MVC Social Assistance Platform
 
 Bu web uygulaması Spring Mvc projesi olup iki aşamadan oluşmaktadır.Hem yönetici hemde ziyaretçi olarak sisteme login olunabilmektedir.
 Yönetici arayüzünde mevcut projeleri görüntüleyebilir, projelere gönüllü kişiler ekleyebilir,silebilir ve güncelleyebilir.
