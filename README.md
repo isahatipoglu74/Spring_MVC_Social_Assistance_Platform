@@ -35,8 +35,8 @@ Mevcut yardım projelerini görüntüleyebilir,gönüllü olabilme veya  sponsor
 # Project Display Image
 <p>
 
-<img src="https://github.com/isahatipoglu74/Spring_MVC_Social_Assistance_Platform/blob/main/ifced_img/1.png" width="300" height="250" style="max-width:100%;"></a>
-<img src="https://github.com/isahatipoglu74/Spring_MVC_Social_Assistance_Platform/blob/main/ifced_img/2.png" width="300" height="250" style="max-width:100%;"></a>
+<img src="https://github.com/isahatipoglu74/Spring_MVC_Social_Assistance_Platform/blob/main/ifced_img/11.png" width="300" height="250" style="max-width:100%;"></a>
+<img src="https://github.com/isahatipoglu74/Spring_MVC_Social_Assistance_Platform/blob/main/ifced_img/12.png" width="300" height="250" style="max-width:100%;"></a>
 <img src="https://github.com/isahatipoglu74/Spring_MVC_Social_Assistance_Platform/blob/main/ifced_img/3.png" width="300" height="250" style="max-width:100%;"></a>
 <img src="https://github.com/isahatipoglu74/Spring_MVC_Social_Assistance_Platform/blob/main/ifced_img/4.png" width="300" height="250" style="max-width:100%;"></a>
 <img src="https://github.com/isahatipoglu74/Spring_MVC_Social_Assistance_Platform/blob/main/ifced_img/5.png" width="300" height="250" style="max-width:100%;"></a>
